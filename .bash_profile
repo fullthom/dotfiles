@@ -119,7 +119,10 @@ fi
 
 cd $HOME 
 
+# My Aliases!
 alias python='python3'
 alias npm='/usr/bin/npm'
 alias cd..="cd .."
+alias gti="git"
+
 echo "Now this is pod racing!"
