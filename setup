@@ -34,7 +34,7 @@ cp $PLUGIN_DIR/vim-pathogen/autoload/pathogen.vim $AUTOLOAD_DIR/pathogen.vim
 
 
 cp ./.vimrc ~/.vimrc
-cp ./.bashrc ~/.bashrc
+cp ./.bash_profile ~/.bash_profile
 
 echo "All done!! (you may need to restart bash)"
 
