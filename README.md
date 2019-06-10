@@ -3,11 +3,9 @@ This is a repo to store my dotfiles (eg, .bashrc, .vimrc, .bash_profile) and oth
 
 A lot of this is directly from @noopkat (https://github.com/noopkat/dotfiles).
 
-
 # Installation
 Clone the repo
-Run `./setup` to automatically replace your .bashrc and .vimrc files. Be careful!
-
+Run `./setup` to automatically replace your .bashrc and .vimrc files. Be careful, this will replace your existing files!
 
 # TODO
 Change the open message to randomly select between a few so that its not always
