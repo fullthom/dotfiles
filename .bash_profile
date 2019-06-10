@@ -125,4 +125,7 @@ alias npm='/usr/bin/npm'
 alias cd..="cd .."
 alias gti="git"
 
+# Add locally installed tools to PATH
+PATH=$PATH:~/.local/bin
+
 echo "Now this is pod racing!"
