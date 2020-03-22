@@ -124,6 +124,7 @@ alias python='python3'
 alias npm='/usr/bin/npm'
 alias cd..="cd .."
 alias gti="git"
+alias rm="rm -i"
 
 # Add locally installed tools to PATH
 PATH=$PATH:~/.local/bin
