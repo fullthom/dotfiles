@@ -1,19 +1,5 @@
 #!/usr/bin/env bash
 
-# This is a bash script to install my vim and bash preferences
-# Inspiration drawn from @noopkat (https://raw.githubusercontent.com/noopkat/dotfiles/master/bin/vim-setup.sh)
-
-BASE_DIR="$HOME/.vim"
-PLUGIN_DIR="$BASE_DIR/bundle"
-COLORS_DIR="$BASE_DIR/colors"
-AUTOLOAD_DIR="$BASE_DIR/autoload"
-
-mkdir -p $PLUGIN_DIR
-mkdir -p $COLORS_DIR
-mkdir -p $AUTOLOAD_DIR
-
-wget https://raw.githubusercontent.com/dracula/vim/master/colors/dracula.vim -O $COLORS_DIR/dracula.vim 
-wget https://raw.githubusercontent.com/ntk148v/vim-horizon/master/colors/horizon.vim -O $COLORS_DIR/horizon.vim
 
 cp ./.vimrc ~/.vimrc
 cp ./.bash_profile ~/.bash_profile

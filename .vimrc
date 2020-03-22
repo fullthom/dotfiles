@@ -13,3 +13,4 @@ set noruler
 set noshowmode
 set hidden
 colorscheme koehler
+syntax on
