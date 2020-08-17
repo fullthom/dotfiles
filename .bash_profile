@@ -126,6 +126,10 @@ alias cd..="cd .."
 alias gti="git"
 alias rm="rm -i"
 
+alias LS="ls"
+alias sl="ls"
+
+
 # Add locally installed tools to PATH
 PATH=$PATH:~/.local/bin
 
