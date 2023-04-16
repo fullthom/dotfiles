@@ -1,8 +1,0 @@
-#!/usr/bin/env bash
-
-
-cp ./.vimrc ~/.vimrc
-cp ./.bash_profile ~/.bash_profile
-
-echo "All done!! (you may need to restart bash)"
-
