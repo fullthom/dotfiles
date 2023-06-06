@@ -1,7 +1,9 @@
 alias gs="git status"
 alias gal="git add ."
-alias gg="git commit -a -m '( ͡❛ ͜ʖ ͡❛)'" 
 alias gp="git push"
+alias gca="git_commit() {
+    git commit -a -m \"$1\"
+}; git_commit"
 
 gpt() {
   user_query="$1"
@@ -13,6 +15,13 @@ gpt() {
     -d "$json")
 
   echo "$response" | jq -r '.choices[0].message.content'
+}
+
+
+retry() {
+  while ! "$@"; do
+    sleep 1
+  done
 }
 
 echo -e "\e[5m\e[33m\e[1mNow THIS is pod racing!\e[0m\e[25m"
